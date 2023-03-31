@@ -139,12 +139,3 @@ generic_action(Command, Param):-
 
 connect(X,Y):- relation(connect, X,Y); relation(connect, Y,X).
 
-
-%todo for seth
-%add text output for move, pickup, place
-%add generic action output
-%write repl
-%when evaluating
-%you can compare the first word the action, against all actions.  if it is in there, do the generic case
-%otherwise try to call the specific ones
-%
